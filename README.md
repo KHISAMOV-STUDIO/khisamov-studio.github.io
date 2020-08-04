@@ -1,2 +1,2 @@
-# khisamov-studio.github.io
-Mind Map
+# javamap
+Map of Java
