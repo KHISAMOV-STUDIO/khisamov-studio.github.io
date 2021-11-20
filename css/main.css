@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+header div, header nav {
+    flex: 0 1 auto;
+}
+
+header h1 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0;
+    display: inline;
+}
+
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+nav a {
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: slateblue;
+}
+
+main h1 {
+    font-size: 64px;
+}
+
+@media screen and (max-width: 400px) {
+    div span:last-of-type {
+        display: block;
+    }
+}
+
