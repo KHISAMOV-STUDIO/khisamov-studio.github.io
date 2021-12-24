@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap"
           rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -19,18 +20,32 @@
 <body>
 <div class="container">
     <header>
-        <div>
-            <h1>Kh</h1>
+        <div class="header__title">
+            <h1 class="mobile-title"><a href="#">Kh</a></h1>
+            <h1 class="desktop-title"><a href="#">KHISAMOV.studio</a></h1>
         </div>
-        <nav>
-            <a href="pages/projects.html">Projects</a>
-            <a href="pages/contact.html">Contact</a>
-            <a href="pages/about.html">About</a>
-        </nav>
+        <div class="header__menu">
+            <!-- Desktop menu -->
+            <nav class="header__list">
+                <a href="pages/projects.html">Projects</a>
+                <a href="pages/contact.html">Contact</a>
+                <a href="pages/about.html">About</a>
+            </nav>
+
+            <!-- Mobile menu -->
+            <ul class="header__nav">
+                <li><a class="menuItem" href="pages/projects.html">Projects</a></li>
+                <li><a class="menuItem" href="pages/contact.html">Contact</a></li>
+                <li><a class="menuItem" href="pages/about.html">About</a></li>
+            </ul>
+            <button class="header__hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </button>
+        </div>
     </header>
     <main>
-        <h1><span>KHISAMOV</span><span>.studio</span></h1>
-        <h2>Developers of games and web applications.</h2>
+        <h1>Developers of games and web applications</h1>
     </main>
 </div>
 </body>
